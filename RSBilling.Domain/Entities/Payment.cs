@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RSBilling.Domain.Entities
 {
-    public class Payment : BaseEntity
+    public class Payment  
     {
         public int PaymentId { get; set; }
         public int ClientId { get; set; }

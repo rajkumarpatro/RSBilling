@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace RSBilling.Domain.Entities
 {
-    public class Document : BaseEntity
+    public class Document  
     { 
         public int DocumentId { get; set; }
         public int ClientId { get; set; }
