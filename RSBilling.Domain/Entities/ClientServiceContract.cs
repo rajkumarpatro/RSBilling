@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RSBilling.Domain.Entities
 {
     public class ClientServiceContract
-    {
+    { 
         public int ContractId { get; set; }
         public int ClientId { get; set; }
         public int? ProjectId { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RSBilling.Domain.Entities
 {
     public class DocumentDispatch
-    {
+    { 
         public int DispatchId { get; set; }
         public int DocumentId { get; set; }
         public DispatchMode DispatchMode { get; set; }

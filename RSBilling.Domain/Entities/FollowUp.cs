@@ -11,7 +11,7 @@ namespace RSBilling.Domain.Entities
         public int FollowUpId { get; set; }
         public int DocumentId { get; set; }
         public DateTime FollowUpDate { get; set; } = DateTime.Now;
-        public string? ClientResponse { get; set; }
+        public string? ClientResponse { get; set; } 
         public DateTime? NextFollowUpDate { get; set; }
         public FollowUpStatus Status { get; set; }
         public string? CreatedBy { get; set; }

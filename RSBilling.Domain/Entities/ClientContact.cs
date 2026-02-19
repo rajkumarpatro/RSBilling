@@ -8,7 +8,7 @@ namespace RSBilling.Domain.Entities
 {
     public class ClientContact
     {
-        public int ContactId { get; set; }
+        public int ContactId { get; set; } 
         public int ClientId { get; set; }
         public string Name { get; set; } = string.Empty;
         public string? Designation { get; set; }

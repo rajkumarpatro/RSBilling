@@ -10,7 +10,7 @@ namespace RSBilling.Domain.Entities
     {
         public int ServiceId { get; set; }
         public string ServiceName { get; set; } = string.Empty;
-        public string? Category { get; set; }
+        public string? Category { get; set; } 
         public bool IsGSTApplicable { get; set; } = true;
         public decimal DefaultGSTPercent { get; set; } = 18;
         public bool IsRecurring { get; set; } = false;

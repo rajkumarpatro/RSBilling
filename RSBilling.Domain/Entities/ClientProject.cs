@@ -9,7 +9,7 @@ namespace RSBilling.Domain.Entities
 {
     public class ClientProject
     {
-        public int ProjectId { get; set; }
+        public int ProjectId { get; set; } 
         public int ClientId { get; set; }
         public string ProjectName { get; set; } = string.Empty;
         public string? ProjectType { get; set; }

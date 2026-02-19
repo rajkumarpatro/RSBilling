@@ -10,7 +10,7 @@ namespace RSBilling.Domain.Entities
     {
         public int PaymentId { get; set; }
         public int ClientId { get; set; }
-        public DateTime PaymentDate { get; set; }
+        public DateTime PaymentDate { get; set; } 
         public PaymentMode PaymentMode { get; set; }
         public decimal ReceivedAmount { get; set; }
         public string? ReferenceNo { get; set; }

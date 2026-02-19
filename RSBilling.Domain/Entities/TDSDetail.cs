@@ -10,7 +10,7 @@ namespace RSBilling.Domain.Entities
     {
         public int TDSId { get; set; }
         public int DocumentId { get; set; }
-        public decimal? TDSPercent { get; set; }
+        public decimal? TDSPercent { get; set; } 
         public decimal? TDSAmount { get; set; }
         public string? CertificateNo { get; set; }
         public bool CertificateReceived { get; set; } = false;

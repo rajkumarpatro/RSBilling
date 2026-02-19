@@ -9,6 +9,6 @@
         public string? ChangedBy { get; set; }
         public DateTime ChangedOn { get; set; } = DateTime.Now;
         public string? OldValue { get; set; }
-        public string? NewValue { get; set; }
+        public string? NewValue { get; set; } 
     }
 }

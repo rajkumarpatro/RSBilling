@@ -9,7 +9,7 @@ namespace RSBilling.Domain.Entities
     public class PaymentAllocation
     {
         public int AllocationId { get; set; }
-        public int PaymentId { get; set; }
+        public int PaymentId { get; set; } 
         public int DocumentId { get; set; }
         public decimal AllocatedAmount { get; set; }
 

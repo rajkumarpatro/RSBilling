@@ -8,7 +8,7 @@ namespace RSBilling.Domain.Entities
 {
     public class DocumentItem
     {
-        public int ItemId { get; set; }
+        public int ItemId { get; set; } 
         public int DocumentId { get; set; }
         public int? ServiceId { get; set; }
         public string? Description { get; set; }
